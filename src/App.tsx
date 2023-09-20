@@ -1,9 +1,15 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
+import DateOfBirth from "./Components/DateOfBirth";
+import DownArrow from "./Components/Arrow";
 
 function App() {
-  return <div>oi</div>;
+  return (
+    <>
+      <DateOfBirth />
+      <DownArrow />
+    </>
+  );
 }
 
 export default App;
