@@ -10,4 +10,11 @@
     border-radius: 50%;
     padding: 20px;
     display: inline-block;
+    cursor: pointer;
+}
+
+.button-arrow {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
